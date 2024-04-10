@@ -1,0 +1,57 @@
+.menu {
+    position: relative;
+  }
+  
+  #botao-menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .linha {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+  }
+  
+  .opcoes-menu {
+    display: none;
+    position: absolute;
+    top: 50px; /* Ajuste a posição conforme necessário */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .opcoes-menu a {
+    display: block;
+    color: black;
+    padding: 8px 0;
+    text-decoration: none;
+  }
+  
+  .opcoes-menu a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh; /* Definindo a altura do container como 100% da altura da janela */
+  }
+  
+  .content {
+    text-align: center; /* Alinhando o texto ao centro horizontalmente */
+  }
+  
+  p {
+    line-height: 100vh; /* Definindo a altura da linha igual à altura do container */
+    margin: 0; /* Removendo margens padrão */
+  }
+  
